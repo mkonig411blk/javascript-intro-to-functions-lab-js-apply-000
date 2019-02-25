@@ -21,13 +21,13 @@ function sayHiToGrandma(string) {
   const uppercase = string.toUpperCase()
   const lowercase = string.toLowerCase()
   if (string === lowercase) {
-    console.log("I can't hear you!")
+    return("I can't hear you!")
   } 
   if (string === uppercase) {
-    console.log("YES INDEED!")
+    return("YES INDEED!")
   }
   else {
-    console.log("I love you, too.")
+    return("I love you, too.")
   }
   
 }
